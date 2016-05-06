@@ -1,0 +1,17 @@
+resolver: lts-3.0
+flags: {}
+packages:
+- .
+- location:
+    git:    https://github.com/sseefried/helm
+    commit: b035e7d196bd45f3de77b47ae8d34c6079d9a2f9
+- location:
+    git:    https://github.com/sseefried/hsSDL2
+    commit: 942be9e67f39c4804efcf6248284e58b675ed490
+- location:
+    git:    https://github.com/sseefried/hs-cairo
+    commit: 922c6fab2d632c220ebd3f07b737e75537bfda70
+
+extra-deps:
+ - elerea-2.8.0
+ - utf8-string-0.3.8
